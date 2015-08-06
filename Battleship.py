@@ -158,7 +158,7 @@ def demo(stages):
         makeboard(board, row, col)
         print_board(board)
         ships = set_ships(board, int(attempts / 10))
-        cheat_B(ships)
+        '''cheat_B(ships)'''
         start_game_msg(stage)
         fire(board, ships, attempts)
         stage = stage + 1
